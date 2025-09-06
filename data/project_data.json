@@ -1,0 +1,71 @@
+{
+  "project": {
+    "name": "Gemini CLI Buildathon Demo",
+    "version": "1.0.0",
+    "description": "A local file wrangler using Gemini AI for document processing",
+    "created_date": "2024-12-15",
+    "status": "active"
+  },
+  "team": [
+    {
+      "name": "Alice Johnson",
+      "role": "Lead Developer",
+      "email": "alice.johnson@example.com",
+      "skills": ["Python", "AI/ML", "API Development"]
+    },
+    {
+      "name": "Bob Smith",
+      "role": "Data Engineer",
+      "email": "bob.smith@example.com",
+      "skills": ["Data Processing", "ETL", "Database Design"]
+    },
+    {
+      "name": "Carol Davis",
+      "role": "UX Designer",
+      "email": "carol.davis@example.com",
+      "skills": ["User Research", "Interface Design", "Prototyping"]
+    }
+  ],
+  "features": [
+    {
+      "id": "file_processing",
+      "name": "Multi-format File Processing",
+      "description": "Process PDFs, markdown, and text files",
+      "status": "completed",
+      "priority": "high"
+    },
+    {
+      "id": "fact_extraction",
+      "name": "AI-powered Fact Extraction",
+      "description": "Extract key facts using Gemini AI",
+      "status": "in_progress",
+      "priority": "high"
+    },
+    {
+      "id": "structured_output",
+      "name": "Structured JSON Output",
+      "description": "Generate organized summaries in JSON format",
+      "status": "pending",
+      "priority": "medium"
+    },
+    {
+      "id": "batch_processing",
+      "name": "Batch File Processing",
+      "description": "Process multiple files in a single run",
+      "status": "pending",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "files_processed": 0,
+    "average_processing_time": "2.5 seconds",
+    "success_rate": "95%",
+    "user_satisfaction": "4.3/5"
+  },
+  "configuration": {
+    "supported_formats": [".md", ".txt", ".json", ".pdf"],
+    "max_file_size": "10MB",
+    "output_format": "JSON",
+    "log_level": "INFO"
+  }
+}

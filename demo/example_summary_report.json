@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "generated_at": "2024-12-15T10:35:00.000000",
+    "total_files_processed": 3,
+    "total_facts_extracted": 25,
+    "unique_topics": [
+      "artificial intelligence",
+      "healthcare",
+      "diagnostic imaging",
+      "drug discovery",
+      "personalized medicine",
+      "data privacy",
+      "regulatory approval",
+      "ethical considerations",
+      "predictive analytics",
+      "electronic health records",
+      "product planning",
+      "technical architecture",
+      "user research",
+      "budget allocation",
+      "risk assessment",
+      "project management",
+      "team collaboration",
+      "feature development",
+      "metrics tracking",
+      "configuration management"
+    ],
+    "model_used": "gemini-1.5-flash"
+  },
+  "consolidated_facts": [
+    "AI can analyze medical images with over 90% accuracy for cancer detection",
+    "Traditional drug discovery takes 10-15 years and costs billions of dollars",
+    "AI enables personalized treatment plans based on genetic profiles",
+    "Healthcare AI market projected to reach $102 billion by 2028",
+    "Q1 2025 roadmap includes authentication and real-time notifications",
+    "85% of users want mobile app version",
+    "User satisfaction score improved from 3.8 to 4.2/5",
+    "Q1 budget approved at $500K with $15K/month infrastructure costs",
+    "Project supports multiple file formats including PDF, markdown, and text",
+    "Average processing time is 2.5 seconds with 95% success rate",
+    "Team includes Lead Developer, Data Engineer, and UX Designer",
+    "High priority features include file processing and fact extraction",
+    "Security audit scheduled for January 10th",
+    "New hires include senior developer and UX researcher",
+    "Third-party API dependency identified as high risk",
+    "Mobile app wireframes due January 5th",
+    "Technical specification document due December 22nd",
+    "User stories for authentication feature due December 20th",
+    "User behavior data analysis due December 18th",
+    "Next meeting scheduled for December 22nd at 2:00 PM"
+  ],
+  "consolidated_entities": {
+    "people": [
+      "Sarah Chen",
+      "Mike Rodriguez",
+      "Lisa Park",
+      "David Kim",
+      "Alice Johnson",
+      "Bob Smith",
+      "Carol Davis"
+    ],
+    "organizations": [
+      "Google Health",
+      "IBM Watson",
+      "FDA",
+      "AWS"
+    ],
+    "locations": []
+  },
+  "file_summaries": [
+    {
+      "file": "sample_article.md",
+      "summary": "Comprehensive overview of AI applications in healthcare including diagnostic imaging, drug discovery, and personalized medicine, with discussion of challenges and future outlook.",
+      "fact_count": 10,
+      "topics": ["artificial intelligence", "healthcare", "diagnostic imaging", "drug discovery", "personalized medicine"]
+    },
+    {
+      "file": "meeting_notes.txt",
+      "summary": "Product planning session covering Q1 2025 roadmap, technical architecture, user research findings, budget allocation, and risk assessment with specific action items.",
+      "fact_count": 8,
+      "topics": ["product planning", "technical architecture", "user research", "budget allocation", "risk assessment"]
+    },
+    {
+      "file": "project_data.json",
+      "summary": "Structured project information including team details, feature specifications, performance metrics, and configuration settings for the Gemini CLI demo project.",
+      "fact_count": 7,
+      "topics": ["project management", "team collaboration", "feature development", "metrics tracking", "configuration management"]
+    }
+  ]
+}

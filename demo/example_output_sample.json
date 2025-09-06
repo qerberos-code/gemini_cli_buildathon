@@ -1,0 +1,47 @@
+{
+  "summary": "This document discusses the future of artificial intelligence in healthcare, covering key applications like diagnostic imaging, drug discovery, and personalized medicine, along with challenges including data privacy, regulatory approval, and ethical considerations.",
+  "key_facts": [
+    "AI can analyze medical images with over 90% accuracy for cancer detection",
+    "Traditional drug discovery takes 10-15 years and costs billions of dollars",
+    "AI enables personalized treatment plans based on genetic profiles and lifestyle factors",
+    "Healthcare AI market projected to reach $102 billion by 2028",
+    "AI systems can identify patterns missed by human radiologists",
+    "FDA approval required for AI medical devices",
+    "HIPAA compliance essential for healthcare data privacy",
+    "Algorithm bias and fairness are key ethical considerations",
+    "Real-time patient monitoring is a key future trend",
+    "AI-assisted surgery and robotics represent future opportunities"
+  ],
+  "topics": [
+    "artificial intelligence",
+    "healthcare",
+    "diagnostic imaging",
+    "drug discovery",
+    "personalized medicine",
+    "data privacy",
+    "regulatory approval",
+    "ethical considerations",
+    "predictive analytics",
+    "electronic health records"
+  ],
+  "entities": {
+    "people": [],
+    "organizations": [
+      "Google Health",
+      "IBM Watson",
+      "FDA"
+    ],
+    "locations": []
+  },
+  "sentiment": "positive",
+  "provenance": {
+    "source_file": "sample_article.md",
+    "processed_at": "2024-12-15T10:30:00.000000",
+    "model_used": "gemini-1.5-flash"
+  },
+  "file_info": {
+    "path": "data/sample_article.md",
+    "size_bytes": 2847,
+    "modified": "2024-12-15T10:25:00.000000"
+  }
+}
