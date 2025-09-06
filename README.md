@@ -4,13 +4,22 @@ A fast, local-first prototype built for the Gemini CLI buildathon.
 
 ## Quick Start
 
-### Option 1: Automated Setup (Recommended)
+### Option 1: Interactive API Key Setup (Recommended)
+```bash
+# Run the interactive setup script
+python setup_api_key.py
+
+# Or use the shell version
+./setup_api_key.sh
+```
+
+### Option 2: Automated Setup
 ```bash
 # Run the automated setup script
 ./run_demo.sh
 ```
 
-### Option 2: Manual Setup
+### Option 3: Manual Setup
 1. **Create and activate virtual environment:**
    ```bash
    python3 -m venv venv
@@ -38,7 +47,7 @@ A fast, local-first prototype built for the Gemini CLI buildathon.
    python app.py demo
    ```
 
-### Option 3: Quick Activation
+### Option 4: Quick Activation
 ```bash
 # Use the activation script for easy environment management
 ./activate.sh
