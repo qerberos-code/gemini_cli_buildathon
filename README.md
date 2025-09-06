@@ -80,16 +80,29 @@ The project demonstrates:
 
 Test both CLI approaches:
 ```bash
-# Test Python SDK and Official CLI
+# Test Python SDK and Official CLI (API key)
 python verify_both_clis.py
+
+# Test OAuth authentication (recommended)
+python verify_oauth.py
 
 # Test Python SDK only
 python verify_cli.py
 
-# Test Official CLI only (requires API key)
-export GEMINI_API_KEY=your_key
+# Test Official CLI with OAuth (no API key needed)
 npx https://github.com/google-gemini/gemini-cli -p "Hello from Gemini CLI!"
 ```
+
+### Authentication Options
+
+**OAuth (Recommended)**:
+- 🎁 Free tier: 60 requests/min, 1,000 requests/day
+- 🚀 Gemini 2.5 Pro with 1M token context window
+- 🔐 No API key management - just sign in with Google account
+
+**API Key**:
+- 🔑 Get from: https://makersuite.google.com/app/apikey
+- 📝 Set in .env file or environment variable
 
 ## Architecture Pattern
 
