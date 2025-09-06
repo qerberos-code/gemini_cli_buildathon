@@ -70,10 +70,26 @@ This prototype writes to:
 ## Gemini Integration
 
 The project demonstrates:
-- Local file processing with Gemini CLI
+- **Python SDK**: Local file processing with `google-generativeai`
+- **Official CLI**: Command-line tool via `npx https://github.com/google-gemini/gemini-cli`
 - Structured output generation
 - Chain-of-thought processing with intermediate artifacts
 - Reproducible demo with deterministic inputs
+
+### CLI Verification
+
+Test both CLI approaches:
+```bash
+# Test Python SDK and Official CLI
+python verify_both_clis.py
+
+# Test Python SDK only
+python verify_cli.py
+
+# Test Official CLI only (requires API key)
+export GEMINI_API_KEY=your_key
+npx https://github.com/google-gemini/gemini-cli -p "Hello from Gemini CLI!"
+```
 
 ## Architecture Pattern
 
